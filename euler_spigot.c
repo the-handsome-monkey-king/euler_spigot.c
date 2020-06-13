@@ -51,11 +51,6 @@ int main(int argc, char* argv[]) {
         int nom = (10 * a[j]) + q;
         q = nom / denom;
         int r = nom % denom;
-        /*
-        printf("a[%d], nom = %d, denom = %d, "
-          "q = %d, r = %d\n", 
-          j, nom, denom, q, r);
-        */
         a[j] = r;
         if(j == 0)
         {
